@@ -13,6 +13,8 @@ class MyDocument extends Document {
     return (
             <Html lang={BLOG.LANG}>
                 <Head>
+      {/* 百度收录 */}
+          <meta name="baidu-site-verification" content="codeva-tbxuXtEmj6" />
                     <link rel='icon' href='/favicon.ico' />
                     <CommonScript />
                 </Head>
